@@ -15,6 +15,18 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+    <uses-permission-sdk-23 android:name="android.permission.SEND_SMS"/>
+    <uses-permission-sdk-23 android:name="android.permission.CALL_PHONE"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission-sdk-23 android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission-sdk-23 android:name="android.permission.VIBRATE"/>
 
     <application
         android:allowBackup="true"
@@ -24,7 +36,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WRChain">
         <activity
-            android:name=".View.editvendor_profile"
+            android:name=".View.EditVenderProfile"
             android:exported="false" />
         <activity
             android:name=".View.OrderList_by_user"

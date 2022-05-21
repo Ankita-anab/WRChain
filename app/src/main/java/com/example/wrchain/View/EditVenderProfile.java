@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.wrchain.R;
 
-public class editvendor_profile extends AppCompatActivity {
+public class EditVenderProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,18 +1,27 @@
 {
   "project_info": {
     "project_number": "95558346836",
+    "firebase_url": "https://wrchain-ae32d-default-rtdb.firebaseio.com",
     "project_id": "wrchain-ae32d",
     "storage_bucket": "wrchain-ae32d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:95558346836:android:96732f03db484f8e9be5c1",
+        "mobilesdk_app_id": "1:95558346836:android:a230a1de9b39094f9be5c1",
         "android_client_info": {
           "package_name": "com.example.wrchain"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "95558346836-607v674a7mpdaluea19jev8m21uiphmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wrchain",
+            "certificate_hash": "97775bcf24847b926eed3e116040bf4620178b72"
+          }
+        },
         {
           "client_id": "95558346836-al7h2hsshjoq4qdsbbtrdn4mcfnlcsav.apps.googleusercontent.com",
           "client_type": 3
@@ -27,7 +36,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "95558346836-al7h2hsshjoq4qdsbbtrdn4mcfnlcsav.apps.googleusercontent.com",
+              "client_id": "95558346836-3uekad19t4o32sc7pt0r706tsk9fr9hp.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
