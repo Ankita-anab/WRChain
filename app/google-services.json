@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95558346836",
+    "project_id": "wrchain-ae32d",
+    "storage_bucket": "wrchain-ae32d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95558346836:android:96732f03db484f8e9be5c1",
+        "android_client_info": {
+          "package_name": "com.example.wrchain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95558346836-al7h2hsshjoq4qdsbbtrdn4mcfnlcsav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCETFrRm8nZ8Uj8Ld9lxB8OwIlwieG-VjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95558346836-al7h2hsshjoq4qdsbbtrdn4mcfnlcsav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WRChain</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="facebook_app_id">356741273151435</string>
+    <string name="facebook_client_token">a9989495035e09155f623cfaa6fe2d4a</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_google_map">GoogleMap</string>
+    <string name="title_activity_change_location">Change_Location</string>
+    <string name="title_activity_add_location_by_map">AddLocation_byMap</string>
+    <string name="delivery">Products Will Be Delivered Here</string>
+    <string name="service_not_available">service not available</string>
+    <string name="invalid_lat_long_used">invalid latitude and longitude</string>
+    <string name="no_address_found">No Address Found</string>
+    <string name="address_found">Address Found</string>
+    <string name="location_permission_denied">Location Permission Denied</string>
+    <string name="location_permission_denied_message">we use this permission to detect your current location
+     and show you great restaurants around you and deliver food to right next to you. Are you sure want to deny this
+    permission ?</string>
+    <string name="search_for_your_location">Search for your location…</string>
+    <string name="settings_permission">it looks like you have turned off permissions required for this
+    feature. it can be enabled under Phone Settings > Apps > app_name > Permissions
+    </string>
+
+</resources>

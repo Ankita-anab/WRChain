@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.Fragments.HomeFragment">
+
+
+        <include
+            android:id="@+id/location"
+            layout="@layout/location_design"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+
+<RelativeLayout
+    android:id="@+id/bannerSlidershow"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_below="@+id/location"
+  >
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/bannerslider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/category_list"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/bannerSlidershow"
+        android:background="#27CBC1C7"
+        android:elevation="5dp"
+        >
+
+        <TextView
+            android:id="@+id/categoryheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+            android:text="Find Shop By Category"
+            android:textColor="#FB393E39"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/category_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/categoryheading" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ads"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/category_list"
+     >
+
+        <include layout="@layout/ads_design" />
+
+
+    </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ads"
+            android:background="#27CBC1C7"
+            >
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:padding="5dp"
+                android:text="All Local Stores Near to you"
+                android:textColor="#FB393E39"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/shopslist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt" />
+
+        </RelativeLayout>
+
+
+
+
+</RelativeLayout>

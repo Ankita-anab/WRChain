@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.AdminDashboard"
+    android:background="@drawable/dashboard"
+    android:id="@+id/container"
+    >
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+
+       <RelativeLayout
+           android:layout_width="match_parent" 
+           android:layout_height="wrap_content"
+           android:layout_marginTop="32dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           >
+
+           <TextView
+               android:id="@+id/txtdashboasrd"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Admin Dashboard"
+               android:textColor="@color/white"
+               android:textSize="20dp" />
+
+           <TextView
+               android:id="@+id/admin_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/txtdashboasrd"
+               android:layout_marginTop="15dp"
+               android:text="Admin Name"
+               android:textColor="@color/white"
+               android:textSize="16dp" />
+
+           <TextView
+               android:id="@+id/admin_email"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/admin_name"
+               android:layout_marginTop="5dp"
+               android:text="Admin Email"
+               android:textColor="@color/white"
+               android:textSize="16dp" />
+
+           <ImageView
+               android:id="@+id/admin_img"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:layout_alignParentRight="true"
+               android:src="@drawable/account" />
+
+           <ImageView
+               android:id="@+id/logout"
+               android:layout_marginTop="2dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/admin_img"
+               android:layout_alignParentEnd="true"
+               android:layout_marginBottom="6dp"
+               android:padding="5dp"
+               android:src="@drawable/logout" />
+
+           <ImageView
+               android:id="@+id/edit"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/admin_img"
+               android:layout_marginTop="2dp"
+               android:layout_marginBottom="6dp"
+               android:layout_toLeftOf="@+id/logout"
+               android:padding="5dp"
+               android:src="@drawable/edit" />
+
+
+       </RelativeLayout>
+     <GridLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:rowCount="3"
+         android:columnCount="2"
+         android:columnOrderPreserved="false"
+         android:alignmentMode="alignMargins"
+         android:layout_marginTop="15dp"
+         >
+         <androidx.cardview.widget.CardView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_columnWeight="1"
+             android:layout_rowWeight="1"
+             app:cardElevation="6dp"
+             app:cardCornerRadius="12dp"
+             android:layout_margin="12dp"
+             >
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:padding="16dp"
+                 android:gravity="center"
+                 >
+                 <ImageView
+                     android:id="@+id/addcategory"
+                     android:src="@drawable/shop"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                 />
+
+                 <TextView
+                     android:layout_width="120dp"
+                     android:layout_height="40dp"
+                     android:layout_marginTop="12dp"
+                     android:textColor="#000"
+                     android:text="Add Shop Category"
+                     android:textAlignment="center"
+                     />
+             </LinearLayout>
+
+
+         </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_columnWeight="1"
+             android:layout_rowWeight="1"
+             app:cardElevation="6dp"
+             app:cardCornerRadius="12dp"
+             android:layout_margin="12dp"
+             >
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:padding="16dp"
+                 android:gravity="center"
+                 >
+                 <ImageView
+                     android:id="@+id/deletecategory"
+                     android:src="@drawable/category_view"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     />
+
+                 <TextView
+                     android:layout_width="120dp"
+                     android:layout_height="40dp"
+                     android:layout_marginTop="12dp"
+                     android:textColor="#000"
+                     android:text="View &amp; Delete Category"
+                     android:textAlignment="center"
+                     />
+             </LinearLayout>
+
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_columnWeight="1"
+             android:layout_rowWeight="1"
+             app:cardElevation="6dp"
+             app:cardCornerRadius="12dp"
+             android:layout_margin="12dp"
+             >
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:padding="16dp"
+                 android:gravity="center"
+                 >
+                 <ImageView
+                     android:id="@+id/verify"
+                     android:src="@drawable/verify"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     />
+
+                 <TextView
+                     android:layout_width="120dp"
+                     android:layout_height="40dp"
+                     android:layout_marginTop="12dp"
+                     android:textColor="#000"
+                     android:text="Verify Vendor to add shop"
+                     android:textAlignment="center"
+                     />
+             </LinearLayout>
+
+
+         </androidx.cardview.widget.CardView>
+
+     </GridLayout>
+
+
+
+ </LinearLayout>
+</FrameLayout>

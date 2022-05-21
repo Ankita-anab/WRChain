@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="user_type">
+        <item >Pick one</item>
+        <item>Retailer</item>
+        <item>Consumer</item>
+        <item>Wholesaler</item>
+    </array>
+
+</resources>
